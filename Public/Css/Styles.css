@@ -1,0 +1,56 @@
+/* -------------------------------------------
+        LANA - Share Moments: Styles
+   ------------------------------------------- */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /* font-family: 'Roboto', sans-serif; */
+/* ------------------------------------------- */
+
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
+
+/* ------------------------------------------- */
+
+/* Variables */
+:root {
+    --primaryColor: #f9f9f9;
+    --secondaryColor: #7661E8;
+
+    --altColor: #3A3845;
+}
+
+/* ------------------------------------------- */
+
+/* Styles: NAVBAR */
+.btn-g {
+    width: 100%;
+    height: 53px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -20px, rgba(0, 0, 0, 0.3) 0px 13px 36px -18px;
+}
+
+.content-l {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 0 0 19px;
+}
+
+li {
+    display: inline-block;
+    /* margin: 0 5px; */
+}
+
+
+
+
+
+
+
