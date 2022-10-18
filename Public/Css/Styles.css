@@ -26,9 +26,7 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
     --altColor: #3A3845;
 }
 
-/* ------------------------------------------- */
-
-/* Styles: NAVBAR */
+/* ------------------------ Styles: NAVBAR ---------------------------- */
 .btn-g {
     width: 100%;
     height: 53px;
@@ -38,14 +36,39 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
 .content-l {
     position: relative;
     display: flex;
+    justify-content: space-between; /* Alineacion "Automatica". */
     height: 100%;
     align-items: center;
-    margin: 0 0 0 19px;
+    margin: 0 19px 0 19px;
 }
 
-li {
-    display: inline-block;
-    /* margin: 0 5px; */
+li { display: inline-block; }
+
+.btn-register {
+    border: none;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    border-radius: 24px;
+    padding: 4px 6px;
+}
+
+.right > li {
+    margin-left: 2px;
+}
+
+.link-login {
+    margin-right: 6px;
+}
+
+/* EL ANCHO MINIMO PARA QUE SE MANTENGAN LOS BOTONES DE LA NAVBAR ES DE 340px. */
+
+/* ------------------------ Styles: MAIN ---------------------------- */
+main {
+    margin: 14px 19px 0 19px;
+}
+
+.photos-c {
+    margin: 14px 0 0 0;
 }
 
 
