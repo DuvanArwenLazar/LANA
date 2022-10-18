@@ -8,6 +8,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./Public/Css/styles.css">
+    <script src="https://kit.fontawesome.com/53da0b8582.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="./Public/Css/bootstrap.min.css"> -->
 </head>
 <body>
@@ -28,13 +29,27 @@
             <div class="photos-c">
                 <div class="container-all">
                     <div class="container-photo">
+                        <img src="./Public/Img/F7A.jpg" alt="">
+                    </div>
+                    <div class="circle-img">
                         <img src="" alt="">
                     </div>
-                    <circle>
-
-                    </circle>
                     <div class="container-text">
-                        
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-message"></i>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="container-all">
+                    <div class="container-photo">
+                        <img src="./Public/Img/F7A.jpg" alt="">
+                    </div>
+                    <div class="circle-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="container-text">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-message"></i>
                     </div>
                 </div>
             </div>
