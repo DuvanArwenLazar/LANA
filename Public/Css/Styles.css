@@ -67,18 +67,11 @@ main {
     margin: 14px 19px 0 19px;
 }
 
-.photos-c {
-    margin: 14px 0 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    outline: 1px solid red;
+.tittle-m {
+    text-align: center;
 }
 
-.container-all  {
-    width: 50%;
-    height: auto;
-    flex: 50%;
-}
+
 
 
 
