@@ -27,19 +27,20 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
 }
 
 /* ------------------------ Styles: NAVBAR ---------------------------- */
-.btn-g {
+.btn-ge {
     width: 100%;
     height: 53px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -20px, rgba(0, 0, 0, 0.3) 0px 13px 36px -18px;
 }
 
-.content-l {
+.content-li {
     position: relative;
     display: flex;
     justify-content: space-between; /* Alineacion "Automatica". */
     height: 100%;
     align-items: center;
     margin: 0 19px 0 19px;
+    /* outline: 3px solid black; */
 }
 
 li { display: inline-block; }
@@ -49,16 +50,11 @@ li { display: inline-block; }
     background-color: var(--secondaryColor);
     color: var(--primaryColor);
     border-radius: 24px;
-    padding: 4px 6px;
+    padding: 4px 14px;
 }
 
-.right > li {
-    margin-left: 2px;
-}
-
-.link-login {
-    margin-right: 6px;
-}
+.right-l > li { margin-left: 2px; }
+.link-login { margin-right: 6px; }
 
 /* EL ANCHO MINIMO PARA QUE SE MANTENGAN LOS BOTONES DE LA NAVBAR ES DE 340px. */
 
@@ -71,6 +67,48 @@ main {
     text-align: center;
 }
 
+.photos-c {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Posicionamiento automatico en funcion de su tamaño. */
+    margin-top: 14px;
+}
+
+.c-general {
+    margin-bottom: 15px;
+    margin-left: 3%;
+    position: relative;
+    width: 45%;
+    height: 250px;
+    background-color: red;
+    border-radius: 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.c-imagen {
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    object-fit: cover; /* Ajuste responsive de la imagen. */
+}
+
+.circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--secondaryColor);
+    border-radius: 50%;
+}
 
 
 
