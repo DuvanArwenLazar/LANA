@@ -14,6 +14,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #F9f9f9;
+}
+::-webkit-scrollbar-track{
+    background: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondaryColor); 
+}
+
 a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
 
 /* ------------------------------------------- */
@@ -63,33 +75,37 @@ main {
     margin: 14px 19px 0 19px;
 }
 
-.tittle-m {
+.title-m {
     text-align: center;
 }
 
-.photos-c {
+.cuadricula {
     position: relative;
     display: flex;
     flex-wrap: wrap; /* Posicionamiento automatico en funcion de su tamaño. */
     margin-top: 14px;
 }
 
-.c-general {
+.general-c {
     margin-bottom: 15px;
     margin-left: 3%;
     position: relative;
     width: 45%;
     height: 250px;
-    background-color: red;
+    background-color: #f8f8f8;
     border-radius: 24px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-.c-imagen {
+.imagen-c {
     width: 100%;
     height: 80%;
     margin: auto;
     overflow: hidden;
+}
+
+.interaction-c {
+
 }
 
 img {
@@ -97,9 +113,17 @@ img {
     position: relative;
     width: 100%;
     height: 100%;
+
+    object-fit: cover; /* Ajuste responsive de la imagen. */
+}
+
+.imagen-c > img {
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
-    object-fit: cover; /* Ajuste responsive de la imagen. */
+}
+
+.circle > img {
+    border-radius: 50%;
 }
 
 .circle {
@@ -108,6 +132,9 @@ img {
     height: 80px;
     border: 2px solid var(--secondaryColor);
     border-radius: 50%;
+    top: -40px;
+    margin: auto;
+
 }
 
 
