@@ -1,14 +1,19 @@
+<?php 
+
+$post = new Post();
+$info = $post->CheckInfoFromDB();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Lana </title>
+    <title> Lana | Index </title>
 
     <!-- Styles -->
     <!-- <link rel="stylesheet" href="./Public/Css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="./Public/Css/styles.css">
+    <link rel="stylesheet" href="../Public/Css/styles.css?<?php time()?>">
     <script src="https://kit.fontawesome.com/53da0b8582.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,14 +35,15 @@
         <main class="content-m">
             <h2 class="title-m"> Share Your Moments! </h2>
             <div class="cuadricula">
+<?php foreach ($info as $i){;?>
                 <div class="general-c">
                     <!-- Imagen -->
                     <div class="imagen-c">
-                        <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="" class="img-main img-m img-responsive">
+                        <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive">
                     </div>
                     <!-- Foto de perfil -->
                     <div class="circle">
-                        <img src="https://avatars.githubusercontent.com/u/110570465?v=4" alt="" srcset="" class="img-main img-c img-responsive">
+                        <img src="<?php echo $i->pfp_post ?>" alt="..." class="img-main img-c img-responsive">
                     </div>
                     <!-- Interacciones -->
                     <div class="interacion-c">
@@ -47,7 +53,7 @@
                 </div>
             </div>
         </main>
-
+<?php } ?>
         <!-- History Container -->
 
         <aside class="content-a">
@@ -63,10 +69,10 @@
                 <h3 class="form-title login-title"> Login </h3>
                 <form action="" method="" class="form">
                     <div class="user-login-c">
-                        <input type="text" name="usernamel" id="usernamel" placeholder="Username">
+                        <input class="form-control-secondary" type="text" name="usernamel" id="usernamel" placeholder="Username">
                     </div>
                     <div class="password-c">
-                        <input type="text" name="password" id="password" placeholder="Password">
+                        <input class="form-control-secondary" type="text" name="password" id="password" placeholder="Password">
                     </div>
                     <div class="submit-c">
                         <button type="submit" class="btn btn-register btn-form-login"> Let's Go! </button>
@@ -79,19 +85,19 @@
                 <h3 class="form-title register-title"> Register </h3>
                 <form action="" method="" class="form">
                     <div class="email-c">
-                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input class="form-control-alt" type="email" name="email" id="email" placeholder="Email">
                     </div>
                     <div class="confirm-email-c">
-                        <input type="email" name="confirm-email" id="confirm-email" placeholder="Confirm Email">
+                        <input class="form-control-alt" type="email" name="confirm-email" id="confirm-email" placeholder="Confirm Email">
                     </div>
                     <div class="user-register-c">
-                        <input type="text" name="usernamer" id="usernamer" placeholder="Username">
+                        <input class="form-control-alt" type="text" name="usernamer" id="usernamer" placeholder="Username">
                     </div>
                     <div class="password-c">
-                        <input type="password" name="password" id="password" placeholder="Password">
+                        <input class="form-control-alt" type="password" name="password" id="password" placeholder="Password">
                     </div>
                     <div class="confirm-email-c">
-                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+                        <input class="form-control-alt" type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
                     </div>
                     <div class="submit-c">
                         <button type="submit" class="btn btn-submit"> Let's Go! </button>

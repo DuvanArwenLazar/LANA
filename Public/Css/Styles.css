@@ -4,6 +4,10 @@
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /* font-family: 'Roboto', sans-serif; */
+@font-face {
+    font-family: LexenDeca;
+    src: url('../Fonts/LexendDeca-VariableFont_wght.ttf');
+}
 /* ------------------------------------------- */
 
 /* General */
@@ -11,7 +15,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: LexenDeca;
 }
 
 ::-webkit-scrollbar{
@@ -28,21 +32,35 @@
 
 a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
 
-/* ------------------------------------------- */
+/* --------------------------  GLOBAL STUFF  ----------------- */
 
 /* Variables */
 :root {
     --primaryColor: #f9f9f9;
     --secondaryColor: #7661E8;
-
     --altColor: #3A3845;
+    
 }
 
+.form-control-secondary{
+    border: none;
+    border-bottom: 2px solid var(--secondaryColor);
+    border-radius: 0px;
+    /* border-style: double; */
+    padding-left: 4.5px;
+}
+.form-control-alt{
+    border: none;
+    border-bottom: 2px solid var(--altColor);
+    border-radius: 0px;
+    /* border-style: double; */
+    padding-left: 4.5px;
+}
 /* ------------------------ Styles: NAVBAR ---------------------------- */
 .btn-ge {
     width: 100%;
     height: 53px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -20px, rgba(0, 0, 0, 0.3) 0px 13px 36px -18px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .content-li {
@@ -94,13 +112,15 @@ main {
     height: 250px;
     background-color: #f8f8f8;
     border-radius: 24px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -20px, rgba(0, 0, 0, 0.3) 0px 13px 36px -18px;
+    box-shadow: rgba(99, 99, 99, 0.3) 1px 1.95px 10px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     transition: all .1s linear;
 }
 
 .general-c:hover {
-    box-shadow: rgb(38, 57, 77) 0px 15px 60px -20px;
-    transform: scale(1.01);
+    box-shadow: rgba(99, 99, 99, 0.3) 1px 2.90px 24px 5px;
+    transform: scale(1.01) translateY(-4px);
+    /* transform: translateY(-2.02px); */
 }
 
 .imagen-c {
@@ -182,10 +202,10 @@ aside, .form-c {
 
 .registro-c {
     background-color: var(--secondaryColor);
-    padding: 30px 15px;
+    padding: px 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-
+    padding: 10px 0 ;
 }
 
 .registro-c > h3 {
