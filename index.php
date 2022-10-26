@@ -18,7 +18,7 @@
                 <ul class="content-li">
                     <li class="l-element logo-l left-l"><h2> Lana </h2></li>
                     <div class="right-l">
-                        <li class="l-element link link-login"><a href="#" class="link link-login"> Login</a> or</li>
+                        <li class="l-element link link-login"><a href="#inicio-sesion" class="link link-login"> Login</a> or</li>
                         <li class="l-element link link-register"><button class="btn-btn btn-register"> Register </button></li>
                     </div>
                 </ul>
@@ -28,7 +28,7 @@
         <!-- Pictures container -->
 
         <main class="content-m">
-            <h2 class="title-m"> Share Your Moments!</h2>
+            <h2 class="title-m"> Share Your Moments! </h2>
             <div class="cuadricula">
                 <div class="general-c">
                     <!-- Imagen -->
@@ -41,14 +41,74 @@
                     </div>
                     <!-- Interacciones -->
                     <div class="interacion-c">
-                        <div class=""><i class="fa-regular fa-heart"></i></div>
-                        <div class=""><i class="fa-regular fa-comment"></i></div>
+                        <div class="primero"> 10 <i class="fa-regular fa-heart"></i></div>
+                        <div class="segundo"><i class="fa-regular fa-comment"></i> 14 </div>
                     </div>
                 </div>
             </div>
         </main>
+
+        <!-- History Container -->
+
+        <aside class="content-a">
+            <h2 class="title-m"> Tell your history! </h2>
+            <!-- PENDEDIENTE -->
+        </aside>
+
+        <!--  -->
+
+        <div class="form-c">
+            <!-- inicio -->
+            <div class="inicio-c" id="inicio-sesion">
+                <h3> Login </h3>
+                <form action="" method="">
+                    <div class="user-login-c">
+                        <label for=""> Username </label>
+                        <input type="text" name="usernamel" id="usernamel">
+                    </div>
+                    <div class="password-c">
+                        <label for=""> Password </label>
+                        <input type="text" name="password" id="password">
+                    </div>
+                    <div class="submit-c">
+                        <button type="submit" class="button button-login"> Let's Go! </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Registro -->
+            <div class="registro-c" id="registro">
+                <h3> Register </h3>
+                <form action="" method="">
+                    <div class="email-c">
+                        <label for=""> Email </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="confirm-email-c">
+                        <label for=""> Confirm Email </label>
+                        <input type="email" name="confirm-email" id="confirm-email">
+                    </div>
+                    <div class="user-register-c">
+                        <label for=""> Username </label>
+                        <input type="text" name="usernamer" id="usernamer">
+                    </div>
+                    <div class="password-c">
+                        <label for=""> Password </label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="confirm-email-c">
+                        <label for=""> Confirm Password </label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
+                    <div class="submit-c">
+                        <button type="submit" class="button button-register"> Let's Go! </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
-<script src="https://kit.fontawesome.com/192d5c8398.js" crossorigin="anonymous"></script>
 
+    <!-- Scripts. -->
+    <script src="https://kit.fontawesome.com/192d5c8398.js" crossorigin="anonymous"></script>
 </html>

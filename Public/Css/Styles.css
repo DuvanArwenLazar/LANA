@@ -94,7 +94,13 @@ main {
     height: 250px;
     background-color: #f8f8f8;
     border-radius: 24px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -20px, rgba(0, 0, 0, 0.3) 0px 13px 36px -18px;
+    transition: all .1s linear;
+}
+
+.general-c:hover {
+    box-shadow: rgb(38, 57, 77) 0px 15px 60px -20px;
+    transform: scale(1.01);
 }
 
 .imagen-c {
@@ -104,8 +110,19 @@ main {
     overflow: hidden;
 }
 
-.interaction-c {
+.interacion-c {
+    position: relative;
+    text-align: center;
+    /* outline: 3px solid var(--secondaryColor); */
+    top: -60px;
+}
 
+.interacion-c > div {
+    display: inline-block;
+}
+
+.interacion-c > .primero {
+    margin-right: 74px;
 }
 
 img {
@@ -134,10 +151,47 @@ img {
     border-radius: 50%;
     top: -40px;
     margin: auto;
-
 }
 
 
+
+/* ------------------------ Styles: ASIDE ---------------------------- */
+aside, .form-c {
+    margin: 0px 19px 14px 19px;
+}
+
+
+
+/* ------------------------ Styles: ASIDE ---------------------------- */
+.form-c {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* align-items: center; */
+
+    border: 5px solid var(--secondaryColor);
+    border-radius: 24px;
+
+}
+
+.form-c > div {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.registro-c {
+    background-color: var(--secondaryColor);
+    padding: 20px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.registro-c > h3 {
+    color: var(--primaryColor);
+}
 
 
 
