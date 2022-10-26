@@ -60,48 +60,41 @@
         <div class="form-c">
             <!-- inicio -->
             <div class="inicio-c" id="inicio-sesion">
-                <h3> Login </h3>
-                <form action="" method="">
+                <h3 class="form-title login-title"> Login </h3>
+                <form action="" method="" class="form">
                     <div class="user-login-c">
-                        <label for=""> Username </label>
-                        <input type="text" name="usernamel" id="usernamel">
+                        <input type="text" name="usernamel" id="usernamel" placeholder="Username">
                     </div>
                     <div class="password-c">
-                        <label for=""> Password </label>
-                        <input type="text" name="password" id="password">
+                        <input type="text" name="password" id="password" placeholder="Password">
                     </div>
                     <div class="submit-c">
-                        <button type="submit" class="button button-login"> Let's Go! </button>
+                        <button type="submit" class="btn btn-register btn-form-login"> Let's Go! </button>
                     </div>
                 </form>
             </div>
 
             <!-- Registro -->
             <div class="registro-c" id="registro">
-                <h3> Register </h3>
-                <form action="" method="">
+                <h3 class="form-title register-title"> Register </h3>
+                <form action="" method="" class="form">
                     <div class="email-c">
-                        <label for=""> Email </label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" placeholder="Email">
                     </div>
                     <div class="confirm-email-c">
-                        <label for=""> Confirm Email </label>
-                        <input type="email" name="confirm-email" id="confirm-email">
+                        <input type="email" name="confirm-email" id="confirm-email" placeholder="Confirm Email">
                     </div>
                     <div class="user-register-c">
-                        <label for=""> Username </label>
-                        <input type="text" name="usernamer" id="usernamer">
+                        <input type="text" name="usernamer" id="usernamer" placeholder="Username">
                     </div>
                     <div class="password-c">
-                        <label for=""> Password </label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" placeholder="Password">
                     </div>
                     <div class="confirm-email-c">
-                        <label for=""> Confirm Password </label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
                     </div>
                     <div class="submit-c">
-                        <button type="submit" class="button button-register"> Let's Go! </button>
+                        <button type="submit" class="btn btn-submit"> Let's Go! </button>
                     </div>
                 </form>
             </div>

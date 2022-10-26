@@ -167,7 +167,6 @@ aside, .form-c {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    /* align-items: center; */
 
     border: 5px solid var(--secondaryColor);
     border-radius: 24px;
@@ -183,7 +182,7 @@ aside, .form-c {
 
 .registro-c {
     background-color: var(--secondaryColor);
-    padding: 20px 15px;
+    padding: 30px 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -192,6 +191,40 @@ aside, .form-c {
 .registro-c > h3 {
     color: var(--primaryColor);
 }
+
+.form > div {
+    margin-bottom: 5px;
+}
+
+.register-title {
+    margin-bottom: 20px;
+}
+
+.login-title {
+    position: relative;
+    top: -57px;
+}
+
+.btn-submit {
+    border: none;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    border-radius: 24px;
+    padding: 4px 14px;
+
+    margin-top: 20px;
+}
+
+.btn-form-login {
+    position: relative;
+    top: 57px;
+}
+
+input {
+    outline: none;
+}
+
+
 
 
 
