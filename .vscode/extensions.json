@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug",
+        "pkief.material-icon-theme",
+        "ms-vsliveshare.vsliveshare",
+        "ritwickdey.liveserver",
+        "dracula-theme.theme-dracula",
+        "pranaygp.vscode-css-peek",
+        "naumovs.color-highlight"
+    ]
+}
