@@ -10,12 +10,22 @@
 }
 /* ------------------------------------------- */
 
+.background-img > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    mix-blend-mode: color-burn;
+
+    z-index: -1;
+}
+
 /* General */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: LexenDeca;
+    /* z-index: 100; */
 }
 
 ::-webkit-scrollbar{
@@ -91,6 +101,7 @@ li { display: inline-block; }
 /* ------------------------ Styles: MAIN ---------------------------- */
 main {
     margin: 14px 19px 0 19px;
+    z-index: 1;
 }
 
 .title-m {
@@ -102,6 +113,7 @@ main {
     display: flex;
     flex-wrap: wrap; /* Posicionamiento automatico en funcion de su tamaño. */
     margin-top: 14px;
+    /* filter: blur(5px); */
 }
 
 .general-c {
@@ -243,11 +255,3 @@ aside, .form-c {
 input {
     outline: none;
 }
-
-
-
-
-
-
-
-

@@ -1,10 +1,10 @@
-<?php 
+<!-- <?php 
 
-$post = new Post();
-$info = $post->CheckInfoFromDB();
-?>
+// $post = new Post();
+// $info = $post->CheckInfoFromDB();
+?> -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en/ES">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@ $info = $post->CheckInfoFromDB();
 
     <!-- Styles -->
     <!-- <link rel="stylesheet" href="./Public/Css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="../Public/Css/styles.css?<?php time()?>">
+    <link rel="stylesheet" href="./Public/Css/Styles.css?<?php time()?>">
     <script src="https://kit.fontawesome.com/53da0b8582.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -29,21 +29,44 @@ $info = $post->CheckInfoFromDB();
                 </ul>
             </nav>
         </header>
-
+        
         <!-- Pictures container -->
+<div class="background-img">
+    <img src="https://th.bing.com/th/id/OIP.3hLdLAqgHO-e0kSgYzjxewHaFJ?pid=ImgDet&rs=1" alt="si">
+</div>
+
 
         <main class="content-m">
             <h2 class="title-m"> Share Your Moments! </h2>
             <div class="cuadricula">
-<?php foreach ($info as $i){;?>
-                <div class="general-c">
+    <?php //foreach ($info as $i){;?>
+                <div class="general-c" >
                     <!-- Imagen -->
-                    <div class="imagen-c">
-                        <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive">
+                    <div class="imagen-c" style="">
+                        <!-- <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive"> -->
+                        <img src="./Public/Img/IMAGEN.jfif" alt="IMAGEN">
                     </div>
                     <!-- Foto de perfil -->
                     <div class="circle">
-                        <img src="<?php echo $i->pfp_post ?>" alt="..." class="img-main img-c img-responsive">
+                        <!-- <img src="<?php echo $i->pfp_post ?>" alt="..." class="img-main img-c img-responsive"> -->
+                        <img src="./Public/Img/perfil.jpg" alt="IMAGEN">
+                    </div>
+                    <!-- Interacciones -->
+                    <div class="interacion-c">
+                        <div class="primero"> 10 <i class="fa-regular fa-heart"></i></div>
+                        <div class="segundo"><i class="fa-regular fa-comment"></i> 14 </div>
+                    </div>
+                </div>
+                <div class="general-c">
+                    <!-- Imagen -->
+                    <div class="imagen-c" >
+                        <!-- <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive"> -->
+                        <img src="./Public/Img/IMAGEN.jfif" alt="IMAGEN" style="mix-blend-mode: multiply;">
+                    </div>
+                    <!-- Foto de perfil -->
+                    <div class="circle">
+                        <!-- <img src="<?php echo $i->pfp_post ?>" alt="..." class="img-main img-c img-responsive"> -->
+                        <img src="https://yt3.ggpht.com/a/AATXAJyGH8UKQ61M7FXNn7qQuRmuxikF6l96TwmL9Q=s900-c-k-c0xffffffff-no-rj-mo" alt="IMAGEN" style="">
                     </div>
                     <!-- Interacciones -->
                     <div class="interacion-c">
@@ -53,7 +76,6 @@ $info = $post->CheckInfoFromDB();
                 </div>
             </div>
         </main>
-<?php } ?>
         <!-- History Container -->
 
         <aside class="content-a">
