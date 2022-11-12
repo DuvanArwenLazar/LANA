@@ -29,12 +29,8 @@
                 </ul>
             </nav>
         </header>
-        
-        <!-- Pictures container -->
-<div class="background-img">
-    <img src="https://th.bing.com/th/id/OIP.3hLdLAqgHO-e0kSgYzjxewHaFJ?pid=ImgDet&rs=1" alt="si">
-</div>
 
+        <!--  -->
 
         <main class="content-m">
             <h2 class="title-m"> Share Your Moments! </h2>
@@ -49,7 +45,7 @@
                     <!-- Foto de perfil -->
                     <div class="circle">
                         <!-- <img src="<?php echo $i->pfp_post ?>" alt="..." class="img-main img-c img-responsive"> -->
-                        <img src="./Public/Img/perfil.jpg" alt="IMAGEN">
+                        <img src="./Public/Img/lana.jpg" alt="IMAGEN">
                     </div>
                     <!-- Interacciones -->
                     <div class="interacion-c">
@@ -66,7 +62,7 @@
                     <!-- Foto de perfil -->
                     <div class="circle">
                         <!-- <img src="<?php echo $i->pfp_post ?>" alt="..." class="img-main img-c img-responsive"> -->
-                        <img src="https://yt3.ggpht.com/a/AATXAJyGH8UKQ61M7FXNn7qQuRmuxikF6l96TwmL9Q=s900-c-k-c0xffffffff-no-rj-mo" alt="IMAGEN" style="">
+                        <img src="./Public/Img/perfil-a.jpg" alt="IMAGEN" style="">
                     </div>
                     <!-- Interacciones -->
                     <div class="interacion-c">
@@ -76,11 +72,49 @@
                 </div>
             </div>
         </main>
-        <!-- History Container -->
+
+        <!--  -->
 
         <aside class="content-a">
             <h2 class="title-m"> Tell your history! </h2>
-            <!-- PENDEDIENTE -->
+
+            <!-- History Container -->
+            <div class="histoy-container">
+                <div class="history" id="history">
+                    <div class="history-img">
+                        <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
+                    </div>
+                    <div class="history-interaction">
+                        <p> @lana_latam </p>
+                        <div class="circle-perfil" >
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="history" id="history">
+                    <div class="history-img">
+                        <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
+                    </div>
+                    <div class="history-interaction">
+                        <p> @lana_latam </p>
+                        <div class="circle-perfil" >
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="history" id="history">
+                    <div class="history-img">
+                        <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
+                    </div>
+                    <div class="history-interaction">
+                        <p> @lana_latam </p>
+                        <div class="circle-perfil" >
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </aside>
 
         <!--  -->

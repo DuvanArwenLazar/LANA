@@ -10,14 +10,14 @@
 }
 /* ------------------------------------------- */
 
-.background-img > img{
+/* .background-img > img{
     width: 100%;
     height: 100%;
     position: absolute;
     mix-blend-mode: color-burn;
 
     z-index: -1;
-}
+} */
 
 /* General */
 * {
@@ -59,6 +59,7 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
     /* border-style: double; */
     padding-left: 4.5px;
 }
+
 .form-control-alt{
     border: none;
     border-bottom: 2px solid var(--altColor);
@@ -188,13 +189,70 @@ img {
 
 
 /* ------------------------ Styles: ASIDE ---------------------------- */
+.histoy-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 14px;
+    text-align: center;
+    font-size: 12px;
+    /* outline: 1px solid green; */
+}
+
+.history {
+    position: relative;
+    width: 29%;
+    height: 175px;
+    margin-top: 14px;
+    box-shadow: rgba(99, 99, 99, 0.3) 1px 1.95px 10px;
+
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    margin: 1%;
+
+    /* outline: 1px solid red; */
+}
+
+.history-img {
+    position: relative;
+    width: 100%;
+    height: 80%;
+
+    object-fit: cover;
+    transition: all .2s ease;
+}
+
+.history-img > img, .history {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.history-interaction {
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+.history-interaction > p {
+    position: relative;
+    top: 6px;
+}
+
+/* ------ [ANIMACION Y HOVER] ------ */
+.history-img:hover {
+    height: 70%;
+}
+
+.history-interaction:hover {
+    height: 30%;
+}
+
+
+/* ------------------------ Styles: FORMS ---------------------------- */
 aside, .form-c {
     margin: 0px 19px 14px 19px;
 }
 
-
-
-/* ------------------------ Styles: ASIDE ---------------------------- */
 .form-c {
     display: flex;
     flex-wrap: nowrap;
