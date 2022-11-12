@@ -236,16 +236,26 @@ img {
 .history-interaction > p {
     position: relative;
     top: 6px;
+    
+}
+
+.text-perfil {
+    position: relative;
+    display: none;
+    color: var(--secondaryColor);
+    top: 15px;
+    animation: reveal .2s linear;
 }
 
 /* ------ [ANIMACION Y HOVER] ------ */
-.history-img:hover {
-    height: 70%;
+@keyframes reveal {
+    from {
+        top: 30px;
+    } to {
+        top: 15px;
+    }
 }
 
-.history-interaction:hover {
-    height: 30%;
-}
 
 
 /* ------------------------ Styles: FORMS ---------------------------- */

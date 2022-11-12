@@ -81,39 +81,38 @@
             <!-- History Container -->
             <div class="histoy-container">
                 <div class="history" id="history">
-                    <div class="history-img">
+                    <div class="history-img" id="history-img">
                         <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
                     </div>
-                    <div class="history-interaction">
+                    <div class="history-interaction" id="history-interaction">
                         <p> @lana_latam </p>
-                        <div class="circle-perfil" >
-                            
+                        <div class="content-text-perfil" >
+                            <p class="text-perfil" id="text-perfil"> See Perfil </p>
                         </div>
                     </div>
                 </div>
                 <div class="history" id="history">
-                    <div class="history-img">
+                    <div class="history-img" id="history-img">
                         <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
                     </div>
-                    <div class="history-interaction">
+                    <div class="history-interaction" id="history-interaction">
                         <p> @lana_latam </p>
-                        <div class="circle-perfil" >
-                            
+                        <div class="content-text-perfil" >
+                            <p class="text-perfil" id="text-perfil"> See Perfil </p>
                         </div>
                     </div>
                 </div>
                 <div class="history" id="history">
-                    <div class="history-img">
+                    <div class="history-img" id="history-img">
                         <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
                     </div>
-                    <div class="history-interaction">
+                    <div class="history-interaction" id="history-interaction">
                         <p> @lana_latam </p>
-                        <div class="circle-perfil" >
-                            
+                        <div class="content-text-perfil" >
+                            <p class="text-perfil" id="text-perfil"> See Perfil </p>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </aside>
 
@@ -128,7 +127,7 @@
                         <input class="form-control-secondary" type="text" name="usernamel" id="usernamel" placeholder="Username">
                     </div>
                     <div class="password-c">
-                        <input class="form-control-secondary" type="text" name="password" id="password" placeholder="Password">
+                        <input class="form-control-secondary" type="text" name="password" id="password-login" placeholder="Password">
                     </div>
                     <div class="submit-c">
                         <button type="submit" class="btn btn-register btn-form-login"> Let's Go! </button>
@@ -166,4 +165,6 @@
 
     <!-- Scripts. -->
     <script src="https://kit.fontawesome.com/192d5c8398.js" crossorigin="anonymous"></script>
+    <script src="./Public/Js/jquery-3.6.1.min.js"></script>
+    <script src="./Public/Js/index.js"></script>
 </html>
