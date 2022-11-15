@@ -80,36 +80,36 @@
 
             <!-- History Container -->
             <div class="histoy-container">
-                <div class="history" id="history">
-                    <div class="history-img" id="history-img">
+                <div class="history">
+                    <div class="history-img">
                         <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
                     </div>
-                    <div class="history-interaction" id="history-interaction">
+                    <div class="history-interaction">
                         <p> @lana_latam </p>
-                        <div class="content-text-perfil" >
-                            <p class="text-perfil" id="text-perfil"> See Perfil </p>
+                        <div class="content-text-perfil">
+                            <p class="text-perfil"> See Perfil </p>
                         </div>
                     </div>
                 </div>
-                <div class="history" id="history">
-                    <div class="history-img" id="history-img">
+                <div class="history">
+                    <div class="history-img">
                         <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
                     </div>
-                    <div class="history-interaction" id="history-interaction">
+                    <div class="history-interaction">
                         <p> @lana_latam </p>
-                        <div class="content-text-perfil" >
-                            <p class="text-perfil" id="text-perfil"> See Perfil </p>
+                        <div class="content-text-perfil">
+                            <p class="text-perfil"> See Perfil </p>
                         </div>
                     </div>
                 </div>
-                <div class="history" id="history">
-                    <div class="history-img" id="history-img">
+                <div class="history">
+                    <div class="history-img">
                         <img src="./Public/Img/IMAGEN.jfif" alt="" srcset="">
                     </div>
-                    <div class="history-interaction" id="history-interaction">
+                    <div class="history-interaction">
                         <p> @lana_latam </p>
-                        <div class="content-text-perfil" >
-                            <p class="text-perfil" id="text-perfil"> See Perfil </p>
+                        <div class="content-text-perfil">
+                            <p class="text-perfil"> See Perfil </p>
                         </div>
                     </div>
                 </div>

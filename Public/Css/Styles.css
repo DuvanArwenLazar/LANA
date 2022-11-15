@@ -52,21 +52,7 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
     
 }
 
-.form-control-secondary{
-    border: none;
-    border-bottom: 2px solid var(--secondaryColor);
-    border-radius: 0px;
-    /* border-style: double; */
-    padding-left: 4.5px;
-}
 
-.form-control-alt{
-    border: none;
-    border-bottom: 2px solid var(--altColor);
-    border-radius: 0px;
-    /* border-style: double; */
-    padding-left: 4.5px;
-}
 /* ------------------------ Styles: NAVBAR ---------------------------- */
 .btn-ge {
     width: 100%;
@@ -282,7 +268,7 @@ aside, .form-c {
 
 .registro-c {
     background-color: var(--secondaryColor);
-    padding: px 15px;
+    padding: 10px 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 10px 0 ;
@@ -317,9 +303,24 @@ aside, .form-c {
 
 .btn-form-login {
     position: relative;
-    top: 57px;
+    top: 63px;
 }
 
 input {
     outline: none;
+    padding: 4px 0px 4px 0px;
+}
+
+.form-control-secondary{
+    border: none;
+    border-bottom: 2px solid var(--secondaryColor);
+    /* border-radius: 15px; */
+    padding-left: 3px;
+}
+
+.form-control-alt{
+    border: none;
+    border-radius: 15px;
+    padding-left: 6px;
+    
 }
