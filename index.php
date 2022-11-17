@@ -38,7 +38,7 @@
     <?php //foreach ($info as $i){;?>
                 <div class="general-c" >
                     <!-- Imagen -->
-                    <div class="imagen-c" style="">
+                    <div class="imagen-c">
                         <!-- <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive"> -->
                         <img src="./Public/Img/IMAGEN.jfif" alt="IMAGEN">
                     </div>
