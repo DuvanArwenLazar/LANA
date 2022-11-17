@@ -1,10 +1,11 @@
-<!-- <?php 
+<!-- <?php
 
-// $post = new Post();
-// $info = $post->CheckInfoFromDB();
-?> -->
+        // $post = new Post();
+        // $info = $post->CheckInfoFromDB();
+        ?> -->
 <!DOCTYPE html>
 <html lang="en/ES">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +14,18 @@
 
     <!-- Styles -->
     <!-- <link rel="stylesheet" href="./Public/Css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="./Public/Css/Styles.css?<?php time()?>">
+    <link rel="stylesheet" href="./Public/Css/Styles.css?<?php time() ?>">
     <script src="https://kit.fontawesome.com/53da0b8582.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="web">
+    <web>
         <header class="header-ge">
             <nav class="btn-ge">
                 <ul class="content-li">
-                    <li class="l-element logo-l left-l"><h2> Lana </h2></li>
+                    <li class="l-element logo-l left-l">
+                        <h2> Lana </h2>
+                    </li>
                     <div class="right-l">
                         <li class="l-element link link-login"><a href="#inicio-sesion" class="link link-login"> Login</a> or</li>
                         <li class="l-element link link-register"><button class="btn-btn btn-register"> Register </button></li>
@@ -35,8 +39,9 @@
         <main class="content-m">
             <h2 class="title-m"> Share Your Moments! </h2>
             <div class="cuadricula">
-    <?php //foreach ($info as $i){;?>
-                <div class="general-c" >
+                <?php //foreach ($info as $i){;
+                ?>
+                <div class="general-c">
                     <!-- Imagen -->
                     <div class="imagen-c">
                         <!-- <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive"> -->
@@ -55,7 +60,7 @@
                 </div>
                 <div class="general-c">
                     <!-- Imagen -->
-                    <div class="imagen-c" >
+                    <div class="imagen-c">
                         <!-- <img src="<?php echo "." . $i->img_post ?>" alt="..." class="img-main img-m img-responsive"> -->
                         <img src="./Public/Img/IMAGEN.jfif" alt="IMAGEN" style="mix-blend-mode: multiply;">
                     </div>
@@ -87,7 +92,7 @@
                     <div class="history-interaction">
                         <p> @lana_latam </p>
                         <div class="content-text-perfil">
-                            <p class="text-perfil"> See Perfil </p>
+                            <p class="text-perfil"> See Profile </p>
                         </div>
                     </div>
                 </div>
@@ -98,7 +103,7 @@
                     <div class="history-interaction">
                         <p> @lana_latam </p>
                         <div class="content-text-perfil">
-                            <p class="text-perfil"> See Perfil </p>
+                            <p class="text-perfil"> See Profile </p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +114,7 @@
                     <div class="history-interaction">
                         <p> @lana_latam </p>
                         <div class="content-text-perfil">
-                            <p class="text-perfil"> See Perfil </p>
+                            <p class="text-perfil"> See Profile </p>
                         </div>
                     </div>
                 </div>
@@ -160,11 +165,21 @@
                 </form>
             </div>
         </div>
-    </div>
+    </web>
+    <footer>
+        <div>
+            <ul>
+                <li>Developers</li>
+                <li> Duvan Espinar Arboleda </li>
+                <li> Juan Pablo Morales </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
-    <!-- Scripts. -->
-    <script src="https://kit.fontawesome.com/192d5c8398.js" crossorigin="anonymous"></script>
-    <script src="./Public/Js/jquery-3.6.1.min.js"></script>
-    <script src="./Public/Js/index.js"></script>
+<!-- Scripts. -->
+<script src="https://kit.fontawesome.com/192d5c8398.js" crossorigin="anonymous"></script>
+<script src="./Public/Js/jquery-3.6.1.min.js"></script>
+<script src="./Public/Js/index.js"></script>
+
 </html>

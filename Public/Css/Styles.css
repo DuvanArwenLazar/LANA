@@ -2,23 +2,18 @@
         LANA - Share Moments: Styles
    ------------------------------------------- */
 
+
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /* font-family: 'Roboto', sans-serif; */
 @font-face {
     font-family: LexenDeca;
     src: url('../Fonts/LexendDeca-VariableFont_wght.ttf');
 }
+
+
+
 /* ------------------------------------------- */
-
-/* .background-img > img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    mix-blend-mode: color-burn;
-
-    z-index: -1;
-} */
-
 /* General */
 * {
     box-sizing: border-box;
@@ -53,6 +48,7 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
 }
 
 
+
 /* ------------------------ Styles: NAVBAR ---------------------------- */
 .btn-ge {
     width: 100%;
@@ -70,7 +66,7 @@ a, a:visited, a:hover, a:link, a:active{color: var(--altColor);}
     /* outline: 3px solid black; */
 }
 
-li { display: inline-block; }
+.l-element{ display: inline-block; }
 
 .btn-register {
     border: none;
@@ -320,7 +316,31 @@ input {
 
 .form-control-alt{
     border: none;
-    border-radius: 15px;
-    padding-left: 6px;
+    border-radius: 10px;
+    padding-left: 8px; 
     
+}
+
+
+
+/* ------------------------ Styles: FOOTER ---------------------------- */
+footer{
+    padding: 10vw;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    /* z-index: -10; */
+    width: 100%;
+    height: 53px;
+    /* background-color: red; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 15px 80px 1px inset; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 0px 36px -90px inset; */
+} 
+
+ul {
+    list-style: none;
+}
+
+footer > li {
+    text-decoration: none;
 }
